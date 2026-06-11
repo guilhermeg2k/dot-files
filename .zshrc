@@ -1,0 +1,1 @@
+/home/gnascimento/.zshrc

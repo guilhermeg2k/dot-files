@@ -1,0 +1,16 @@
+background-opacity=0.99
+theme=Ayu
+
+keybind = ctrl+shift+r=reload_config
+keybind = f11=toggle_fullscreen
+keybind = ctrl+enter=unbind
+keybind = ctrl+shift+s=new_split:auto
+keybind = ctrl+shift+d=new_split:down
+keybind = ctrl+shift+q=close_surface
+keybind = ctrl+alt+h=goto_split:left
+keybind = ctrl+alt+j=goto_split:down
+keybind = ctrl+alt+k=goto_split:up
+keybind = ctrl+alt+l=goto_split:right
+
+font-size=13
+font-family="IBM Plex Mono"

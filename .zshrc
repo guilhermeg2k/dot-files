@@ -11,7 +11,7 @@ alias vimrc="vim ~/.config/nvim/init.lua"
 alias grc="vim ~/.config/ghostty/config.ghostty"
 alias vim="nvim"
 alias v="nvim"
-alias updatedot="~/dot-files/update.sh"
+alias updatedots="~/Projects/dot-files/update.sh"
 alias dnf="dnf5"
 
 source $ZSH/oh-my-zsh.sh

@@ -2,10 +2,8 @@
 set -e
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo $REPO_DIR
-
-cp -rL ~/.config/nvim "$REPO_DIR/nvim"
-cp -rL ~/.config/ghostty "$REPO_DIR/ghostty"
+rsync -rL --delete ~/.config/nvim/ "$REPO_DIR/nvim/"
+rsync -rL --delete ~/.config/ghostty/ "$REPO_DIR/ghostty/"
 cp -L ~/.zshrc "$REPO_DIR/.zshrc"
 
 cd "$REPO_DIR"

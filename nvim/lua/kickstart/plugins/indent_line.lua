@@ -6,7 +6,7 @@ return {
     main = 'ibl',
     opts = {
       enabled = false,
-      indent = { char = '' },
+      indent = { char = '|' },
     },
   },
 }

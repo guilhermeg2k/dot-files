@@ -1,4 +1,4 @@
-background-opacity=0.99
+background-opacity=0.95
 theme=Ayu
 
 keybind = ctrl+shift+r=reload_config
@@ -13,4 +13,6 @@ keybind = ctrl+alt+k=goto_split:up
 keybind = ctrl+alt+l=goto_split:right
 
 font-size=13
-font-family="IBM Plex Mono"
+font-family="JetBrainsMono NF"
+
+window-save-state = always
